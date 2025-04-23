@@ -1,11 +1,11 @@
 import React from 'react';
-import RevenueCard from './components/RevenueCard';
-import BlueCard from './components/BlueCard';
 import Overview from './components/Overview';
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
       <Overview/>
+      <Footer></Footer>
       </div>
   );
 }
