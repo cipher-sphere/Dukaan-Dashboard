@@ -1,13 +1,15 @@
 import React from 'react'
 import BlueCard from './BlueCard'
 import RevenueCard from './RevenueCard'
+import { FaChevronDown } from "react-icons/fa";
+
 function Overview() {
     return (
         <div>
             <div className='flex justify-between items-center mb-6'>
                 <div className='font-semibold text-xl'>Overview</div>
-                <div><button className="border border-gray-300 px-4 py-2 rounded-md bg-white text-gray-700 font-medium hover:bg-gray-100 transition">
-                    This Month
+                <div><button className="flex gap-2 items-center border border-gray-300 px-4 py-2 rounded-md bg-white text-gray-700 font-medium hover:bg-gray-100 transition">
+                    This Month <FaChevronDown className='text-gray-700'/>
                 </button></div>
             </div>
             <div className='flex justify-between space-x-4'>
