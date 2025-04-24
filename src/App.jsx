@@ -3,13 +3,15 @@ import Overview from './components/Overview';
 import Footer from './components/Footer';
 import Topbar from './components/Topbar';
 import Transactions from './components/Transactions';
+import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div>
-      <Topbar/>
+      {/* <Topbar/>
       <Overview/>
       <Transactions></Transactions>
-      <Footer></Footer>
+      <Footer></Footer> */}
+      <Sidebar/>
       </div>
   );
 }
