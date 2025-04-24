@@ -6,13 +6,18 @@ import Transactions from './components/Transactions';
 import Sidebar from './components/Sidebar';
 function App() {
   return (
-    <div>
-      {/* <Topbar/>
-      <Overview/>
-      <Transactions></Transactions>
-      <Footer></Footer> */}
-      <Sidebar/>
+    <div className='grid grid-cols-12'>
+      <div className='col-span-2 bg-blue-950'><Sidebar /></div>
+      <div className='col-span-10 m-3'>
+        <Topbar />
+        <div className='mx-8 mt-7'>
+        <Overview />
+        <Transactions />
+        <Footer />
+        </div>
       </div>
+    </div>
+
   );
 }
 
